@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Schicksal/Supporting Files/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="zh-Hans">
+  <file original="Schicksal/Supporting Files/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="zh">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <note>Bundle name</note>
+        <source>$(PRODUCT_NAME)</source> <target></target><note>Bundle name</note>
       </trans-unit>
     </body>
   </file>
@@ -16,41 +15,32 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.3" build-num="9E145"/>
     </header>
     <body>
-      <trans-unit id="SK_WhiteComet_CometExplosion_Caption">
-        <source>Coment Explosion</source>
-        <note>MARK: Special Attack - Comet Explosion</note>
+      <trans-unit id="SK_WhiteComet_CometExplosion_Caption" approved="yes">
+        <source>Coment Explosion</source> <target state="translated">彗星炸裂</target><note>MARK: Special Attack - Comet Explosion</note>
       </trans-unit>
-      <trans-unit id="SK_WhiteComet_CometExplosion_Content">
-        <source>Unleashes a crushing attack upon entering the battle, dealing (275% of ATK) physical damage. stuns enemy for 6.0 sec upon a successful interrupt.</source>
-        <note/>
+      <trans-unit id="SK_WhiteComet_CometExplosion_Content" approved="yes">
+        <source>Unleashes a crushing attack upon entering the battle, dealing (275% of ATK) physical damage. stuns enemy for 6.0 sec upon a successful interrupt.</source> <target state="translated">出场时发动坠击，造成275%攻击力的物理伤害，打断敌人时造成6.0秒眩晕</target><note/>
       </trans-unit>
-      <trans-unit id="SK_WhiteComet_CometFall_BringDown_Caption">
-        <source>Bring Down</source>
-        <note/>
+      <trans-unit id="SK_WhiteComet_CometFall_BringDown_Caption" approved="yes">
+        <source>Bring Down</source> <target state="translated">击落</target><note/>
       </trans-unit>
-      <trans-unit id="SK_WhiteComet_CometFall_BringDown_Content">
-        <source>Deals AOE physical damage equal to 275% of ATK.</source>
-        <note/>
+      <trans-unit id="SK_WhiteComet_CometFall_BringDown_Content" approved="yes">
+        <source>Deals AOE physical damage equal to 275% of ATK.</source> <target state="translated">275%攻击力范围物理伤害</target><note/>
       </trans-unit>
-      <trans-unit id="SK_WhiteComet_CometFall_Punt_Caption">
-        <source>Punt</source>
-        <note>MARK: Special Attack - Comet Fall</note>
+      <trans-unit id="SK_WhiteComet_CometFall_Punt_Caption" approved="yes">
+        <source>Punt</source> <target state="translated">踢飞</target><note>MARK: Special Attack - Comet Fall</note>
       </trans-unit>
-      <trans-unit id="SK_WhiteComet_CometFall_Punt_Content">
-        <source>Deals physical damage equal to 50% of ATK.</source>
-        <note/>
+      <trans-unit id="SK_WhiteComet_CometFall_Punt_Content" approved="yes">
+        <source>Deals physical damage equal to 50% of ATK.</source> <target state="translated">50%攻击力伤害</target><note/>
       </trans-unit>
-      <trans-unit id="SK_WhiteComet_CriticalMastery_Caption">
-        <source>Critical Mastery</source>
-        <note>MARK: - Passive Skill - Critical Mastery</note>
+      <trans-unit id="SK_WhiteComet_CriticalMastery_Caption" approved="yes">
+        <source>Critical Mastery</source> <target state="translated">彗星暴击</target><note>MARK: - Passive Skill - Critical Mastery</note>
       </trans-unit>
-      <trans-unit id="SK_WhiteComet_CriticalMastery_Content">
-        <source>Increases Critical Damage by 40% when HP is ablove 80%</source>
-        <note/>
+      <trans-unit id="SK_WhiteComet_CriticalMastery_Content" approved="yes">
+        <source>Increases Critical Damage by 40% when HP is ablove 80%</source> <target state="translated">HP高于80%时，暴击伤害提高40%</target><note/>
       </trans-unit>
-      <trans-unit id="SK_WhiteComet_GravityFreak_Caption">
-        <source>Gravity Freak</source>
-        <note>MARK: Special Attack - Gravity Freak</note>
+      <trans-unit id="SK_WhiteComet_GravityFreak_Caption" approved="yes">
+        <source>Gravity Freak</source> <target state="translated">重力异想</target><note>MARK: Special Attack - Gravity Freak</note>
       </trans-unit>
       <trans-unit id="SK_WhiteComet_GravityFreak_Content">
         <source>The second strike of combo attacks and Comet Explosion deals an additional 1125 fire damage to enemy with an unbroken Elite Shield.</source>
@@ -253,20 +243,17 @@
         <note/>
       </trans-unit>
       <trans-unit id="V_WhiteComet_Firstname">
-        <source>White</source>
-        <note>Property</note>
+        <source>White</source> <target></target><note>Property</note>
       </trans-unit>
       <trans-unit id="V_WhiteComet_FullName">
-        <source>White Comet</source>
-        <note/>
+        <source>White Comet</source> <target></target><note/>
       </trans-unit>
       <trans-unit id="V_WhiteComet_Lastname">
         <source>Comet</source>
         <note/>
       </trans-unit>
       <trans-unit id="V_WhiteComet_ShortName">
-        <source>White Comet</source>
-        <note/>
+        <source>White Comet</source> <target></target><note/>
       </trans-unit>
     </body>
   </file>
@@ -276,8 +263,7 @@
     </header>
     <body>
       <trans-unit id="ATK">
-        <source>ATK</source>
-        <note/>
+        <source>ATK</source> <target></target><note/>
       </trans-unit>
       <trans-unit id="Basic Attack">
         <source>Basic Attack</source>
@@ -316,12 +302,10 @@
         <note/>
       </trans-unit>
       <trans-unit id="Leader Skill">
-        <source>Leader Skill</source>
-        <note/>
+        <source>Leader Skill</source> <target></target><note/>
       </trans-unit>
       <trans-unit id="Mecha">
-        <source>Mecha</source>
-        <note/>
+        <source>Mecha</source> <target></target><note/>
       </trans-unit>
       <trans-unit id="Passive Skill">
         <source>Passive Skill</source>
